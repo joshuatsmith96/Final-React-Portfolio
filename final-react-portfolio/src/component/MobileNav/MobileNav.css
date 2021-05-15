@@ -1,0 +1,41 @@
+/* Style for X button */
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.MobileNav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    right: 100%;
+    transition: .5s;
+    z-index: 2;
+}
+
+.navList{
+    flex: 1;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    transition: 1s;
+}
+
+.exit{
+    flex: 1;
+    background-color: black;
+    opacity: 0;
+    transition: .8s;
+    z-index: 2;
+}
+
+.exit p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,19 @@
+.InfoBar{
+    background-color: rgb(51, 124, 192);
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.InfoBar h3{
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+}
+
+.InfoBar img{
+    width: 30px;
+    height: 35px;
+    background-color: rgb(51, 124, 192);
+}

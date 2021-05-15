@@ -14,10 +14,10 @@ const About = (props) => {
             Technical College in Anoka, MN. He will graduate in March of
             2022."/>
             <Article 
-            Header="Joshua's Experience"
+            Header="Relevant Experience"
             Text="Although Joshua does not have any on the job experience
             with Web Development, he has been designing, practicing, and perfecting
-            the way he creates websites. "/>
+            the way he creates websites for over a year."/>
         </div>
     )
 }

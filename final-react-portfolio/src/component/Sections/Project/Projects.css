@@ -1,0 +1,16 @@
+.Projects{
+    text-align: center;
+    margin: 5px;
+}
+
+.Projects h1{
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-width: thin;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Projects h2{
+    font-size: 22px;
+}

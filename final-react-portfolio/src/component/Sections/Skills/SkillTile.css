@@ -1,0 +1,17 @@
+.SkillTile{
+    border: solid;
+    padding: 5px;
+    margin: 5px;
+    border-width: thin;
+    box-shadow: 1px 1px 5px 1px;
+    border-color: rgb(66, 66, 66);
+}
+
+.SkillTile img{
+    width: 70px;
+    height: 70px;
+}
+
+.SkillTile h3{
+    font-size: 20px;
+}

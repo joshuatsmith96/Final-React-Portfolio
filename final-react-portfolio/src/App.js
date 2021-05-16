@@ -6,8 +6,8 @@ import CarouselContainer from './component/CarouselContainer';
 import About from './component/Sections/About/About';
 import InfoBar from './component/Articles/InfoBar';
 import BriefCase from './component/Images/Icons/briefcase.png';
-import Skills from './component/Articles/SkillsArticle/Skills';
-import Projects from './component/Articles/ProjectArticle/Projects';
+import Skills from './component/Sections/Skills/Skills';
+import Projects from './component/Sections/Project/Projects';
 
 function App() {
   return (
@@ -19,8 +19,7 @@ function App() {
       Text="Ready To Work"
       Image={BriefCase}/>
       <About />
-      <Skills 
-      Header="Skills"/>
+      <Skills />
       <Projects />
     </div>
   );

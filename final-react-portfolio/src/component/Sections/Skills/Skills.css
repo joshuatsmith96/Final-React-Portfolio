@@ -1,0 +1,11 @@
+.Skills{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-align: center;
+}
+
+.tileHolder{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}

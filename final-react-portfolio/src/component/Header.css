@@ -1,6 +1,7 @@
 .Header{
     color: white;
     background-color: rgb(53, 53, 53);
+    text-align: center;
     padding: 25px;
     height: 40px;
     display: flex;

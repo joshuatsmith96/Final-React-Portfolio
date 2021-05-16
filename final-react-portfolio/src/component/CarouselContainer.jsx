@@ -16,7 +16,8 @@ const CarouselContainer = (props) => {
     };
 
     return (
-        <Carousel>
+        <div className="carDiv">
+            <Carousel>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
@@ -53,6 +54,8 @@ const CarouselContainer = (props) => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        </div>
+        
     )
 }
 

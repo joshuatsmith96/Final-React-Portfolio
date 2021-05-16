@@ -27,3 +27,9 @@
     display: grid;
     grid-template-columns: auto;
 }
+
+@media all and (min-width: 1092px) {
+    .projectHolder{
+        grid-template-columns: auto auto;
+    }
+}

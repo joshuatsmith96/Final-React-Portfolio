@@ -7,7 +7,6 @@ const Header = (props) => {
 
     return (
         <div className="Header">
-            <NavButton />
             <h1>Joshua's Portfolio</h1>
         </div>
     )

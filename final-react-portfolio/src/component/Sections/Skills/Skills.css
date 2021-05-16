@@ -9,3 +9,15 @@
     grid-template-columns: auto auto;
     padding: 5px;
 }
+
+@media all and (min-width: 1004px) {
+    .tileHolder{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media all and (min-width: 1272px) {
+    .tileHolder{
+        grid-template-columns: auto auto auto auto;
+    }
+}

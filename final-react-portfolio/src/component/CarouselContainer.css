@@ -7,6 +7,11 @@ img{
     color: black;
 }
 
+.carDiv h1{
+    text-align: center;
+    display: none;
+}
+
 @media all and (min-width: 515px) {
     img{
         height: 400px;
@@ -31,6 +36,10 @@ img{
         margin-right: 15%;
         margin-top: 2%;
         margin-bottom: 2%;
+    }
+
+    .carDiv h1{
+        display: block;
     }
 
     img{

@@ -17,6 +17,7 @@ const CarouselContainer = (props) => {
 
     return (
         <div className="carDiv">
+            <h1>Joshua's Portfolio</h1>
             <Carousel>
             <Carousel.Item>
                 <img

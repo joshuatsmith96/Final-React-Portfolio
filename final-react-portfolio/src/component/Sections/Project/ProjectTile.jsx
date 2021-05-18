@@ -9,7 +9,7 @@ const ProjectTile = (props) => {
             <h3>{props.Header}</h3>
             <img src={props.Image} alt={props.Alt} />
             <p>{props.Text}</p>
-            <a href={props.Link}>View Project</a>
+            <a href={props.Link} target="_blank">View Project</a>
         </div>
     )
 }

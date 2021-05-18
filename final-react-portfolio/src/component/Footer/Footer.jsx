@@ -6,7 +6,7 @@ const Footer = (props) => {
 
     return (
         <div className="Footer">
-            <p>{props.Name}</p>
+            <p>Joshua's Portfolio Website</p>
         </div>
     )
 }

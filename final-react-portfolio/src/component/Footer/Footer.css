@@ -1,8 +1,10 @@
 .Footer{
     padding: 4px;
-    background-color: black;
+    background-color: rgb(53, 53, 53);
 }
 
 .Footer p{
     margin: 0px;
+    color: white;
+    text-align: center;
 }

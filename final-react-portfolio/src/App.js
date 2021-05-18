@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
 import MobileNav from './component/MobileNav/MobileNav';
@@ -8,6 +7,7 @@ import InfoBar from './component/Articles/InfoBar';
 import BriefCase from './component/Images/Icons/briefcase.png';
 import Skills from './component/Sections/Skills/Skills';
 import Projects from './component/Sections/Project/Projects';
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }

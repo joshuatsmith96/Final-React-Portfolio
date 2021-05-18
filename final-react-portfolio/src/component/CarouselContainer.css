@@ -2,6 +2,7 @@ img{
     width: 100%;
     max-height: 580px;
     background-color: rgb(209, 209, 209);
+    transition: .5s;
 }
 
 .black{
@@ -13,16 +14,24 @@ img{
     display: none;
 }
 
+.bgImg{
+    background-image: url("./Images/mountainsBW.jpg");
+}
+
 @media all and (min-width: 652px) {
     .carDiv{
         margin-left: 15%;
         margin-right: 15%;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        box-shadow: 1px 1px 10px 1px;
+        border-radius: 50px;
     }
 
-    .img{
-        border-radius: 40px;
+    img{
+        border-radius: 15px;
     }
 }
 

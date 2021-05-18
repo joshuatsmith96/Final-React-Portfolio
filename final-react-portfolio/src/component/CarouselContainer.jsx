@@ -16,7 +16,8 @@ const CarouselContainer = (props) => {
     };
 
     return (
-        <div className="carDiv">
+        <div className="bgImg">
+            <div className="carDiv">
             <h1>Joshua's Portfolio</h1>
             <Carousel>
             <Carousel.Item>
@@ -56,6 +57,8 @@ const CarouselContainer = (props) => {
             </Carousel.Item>
         </Carousel>
         </div>
+        </div>
+        
         
     )
 }

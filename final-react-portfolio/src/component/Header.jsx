@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.css';
-import NavButton from './NavButton';
+import FloatingIcon from './FloatingIcon';
 
 
 const Header = (props) => {
 
     return (
         <div className="Header">
-            <h1>Joshua's Portfolio</h1>
+            <FloatingIcon />
         </div>
     )
 }

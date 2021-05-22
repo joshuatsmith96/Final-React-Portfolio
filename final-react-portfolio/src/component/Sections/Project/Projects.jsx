@@ -3,6 +3,8 @@ import './Projects.css';
 import ProjectTile from './ProjectTile';
 import portfolioImage from '../../Images/portfolioScreenShot.png';
 import budgetCalcSS from '../../Images/budgetCalcSS.png';
+import italianSS from '../../Images/italianScreenShot.png';
+import theStory from '../../Images/TheStory.png';
 
 
 const Projects = (props) => {
@@ -23,6 +25,18 @@ const Projects = (props) => {
                 allows a user to calculate their monthly expenses."
                 Link="https://joshuatsmith96.github.io/Budget-Planner-Application/"
                 Image={budgetCalcSS}/>
+                <ProjectTile 
+                Header="Italian Restaurant"
+                Text="This application was created using HTML, CSS and JavaScript. This is a mock-up of
+                an italian restaurant. This website features a table reservation application."
+                Link="https://joshuatsmith96.github.io/ItalianRestaurant/"
+                Image={italianSS}/>
+                <ProjectTile 
+                Header="'The Story'"
+                Text="This application was created using Python. This game is a story driven, 
+                text based adventure game where your decisions have consequences."
+                Link="https://github.com/joshuatsmith96/theStory"
+                Image={theStory}/>
             </div>
         </div>
     )

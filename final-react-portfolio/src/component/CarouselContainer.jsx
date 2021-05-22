@@ -62,7 +62,7 @@ const CarouselContainer = (props) => {
                 />
 
                 <Carousel.Caption style={style1}>
-                <h3>Find me on LnikedIn!</h3>
+                <h3>Find me on LinkedIn!</h3>
                 <p>Check out my page on <a href="https://www.linkedin.com/in/joshua-s-90680119b/" target="_blank">LinkedIn!</a></p>
                 </Carousel.Caption>
             </Carousel.Item>

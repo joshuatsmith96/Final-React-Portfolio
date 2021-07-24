@@ -15,7 +15,10 @@ img{
 }
 
 .bgImg{
-    background-image: url("./Images/mountainsBW.jpg");
+    background-image: url("./Images/newbackground.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @media all and (min-width: 652px) {

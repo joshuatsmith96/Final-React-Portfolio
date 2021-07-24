@@ -11,7 +11,7 @@ const CarouselContainer = (props) => {
     let style1 = {
         backgroundColor: "black",
         opacity: ".8",
-        padding: "2px",
+        padding: "5px",
         borderRadius: "6px",
         zIndex: "1"
     };
@@ -19,7 +19,7 @@ const CarouselContainer = (props) => {
     let style2 = {
         backgroundColor: "white",
         color: "black",
-        padding: "2px",
+        padding: "5px",
         opacity: ".9",
         borderRadius: "6px",
         zIndex: "1"

@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.Skills h1{
+    font-weight: bolder;
+}
+
 .tileHolder{
     display: grid;
     grid-template-columns: auto auto;

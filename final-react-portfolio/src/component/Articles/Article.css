@@ -5,10 +5,14 @@
     text-align: center;
     background-color: white;
     border-color: rgb(189, 189, 189);
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 1px;
 }
 
 .Article p{
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.Article h1{
+    font-weight: bold;
 }

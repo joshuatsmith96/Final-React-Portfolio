@@ -18,38 +18,3 @@
     color: black;
     border-radius: 10px;
 }
-
-@media all and (min-width: 1196px) {
-    .FloatingIcon{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .FloatingIcon{
-        position: absolute;
-        display: flex;
-        top: 20px;
-        flex-direction: column;
-    }
-
-    .FloatingIcon h1{
-        font-size: 40px;
-    }
-
-    .FloatingIcon h1:first-child{
-        background-color: rgb(53, 53, 53);
-        border: solid;
-        border-color: white;
-        box-shadow: 1px 1px 6px 1px;
-        margin-right: 0px;
-    }
-
-    .FloatingIcon h1:last-child{
-        background-color: white;
-        color: black;
-        border: solid;
-        box-shadow: 1px 1px 6px 1px;
-        border-radius: 0px;
-    }
-    
-}

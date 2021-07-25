@@ -28,6 +28,12 @@
     margin-bottom: 10px;
 }
 
+.ProjectTile a:hover{
+    background-color: white;
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
 .projectHolder{
     display: grid;
     grid-template-columns: auto;

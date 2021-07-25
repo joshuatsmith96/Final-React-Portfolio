@@ -10,7 +10,6 @@ import Projects from '../Project/Projects';
 import Footer from '../../Footer/Footer';
 import PDFView from '../PDFViewer/PDFView';
 
-
 const Home = (props) => {
 
     return (

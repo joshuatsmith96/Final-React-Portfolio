@@ -30,7 +30,7 @@ const CarouselContainer = (props) => {
             <div className="someText">
                 <h1><span className="emphasize">D</span>eveloper.</h1>
                 <h1><span className="emphasize">D</span>esigner.</h1>
-                <h1><span className="emphasize">F</span>riend.</h1>
+                <h1><span className="emphasize">S</span>tudent.</h1>
             </div>
             <div className="somePictures">
             <div className="carDiv">
@@ -56,7 +56,7 @@ const CarouselContainer = (props) => {
                 <Carousel.Caption style={style2}>
                 <h3>Find me on GitHub.</h3>
                 <p>View my projects on <a href="https://github.com/joshuatsmith96?tab=repositories&fbclid=IwAR0Tmx6YrbZyJ
-                -QsKdEoRPE2LjVCBK1bl6gZc15TvlwkD-t_i0UyrJs2Eow" target="_blank">GitHub</a></p>
+                -QsKdEoRPE2LjVCBK1bl6gZc15TvlwkD-t_i0UyrJs2Eow" target="_blank" rel="noreferrer">GitHub</a></p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -68,7 +68,7 @@ const CarouselContainer = (props) => {
 
                 <Carousel.Caption style={style1}>
                 <h3>Find me on LinkedIn.</h3>
-                <p>Check out my page on <a href="https://www.linkedin.com/in/joshua-s-90680119b/" target="_blank">LinkedIn!</a></p>
+                <p>Check out my page on <a href="https://www.linkedin.com/in/joshua-s-90680119b/" target="_blank" rel="noreferrer">LinkedIn!</a></p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

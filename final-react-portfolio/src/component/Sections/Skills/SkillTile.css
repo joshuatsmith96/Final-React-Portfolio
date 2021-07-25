@@ -7,6 +7,7 @@
 .SkillTile img{
     width: 70px;
     height: 70px;
+    background-color: transparent;
 }
 
 .SkillTile h3{

@@ -64,7 +64,7 @@ img{
 
 @media all and (min-width: 570px) {
     .carDiv{
-        padding: 2% 2% 2% 2%;
+        padding: 2% 20% 2% 20%;
     }
 
     img{
@@ -78,6 +78,7 @@ img{
     .carDiv{
         margin-left: 20%;
         margin-right: 20%;
+        padding: 2px;
         align-items: center;
         width: 380px;
     }

@@ -17,3 +17,7 @@
     height: 35px;
     background-color: rgb(51, 124, 192);
 }
+
+.InfoBar a{
+    color: black;
+}

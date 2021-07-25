@@ -29,7 +29,7 @@ const Skills = (props) => {
                 Header="JavaScript"
                 Image={jsIcon}/>
                 <SkillTile 
-                Header="SQL Server"
+                Header="MySQL"
                 Image={sqlIcon}/>
                 <SkillTile 
                 Header="Python"

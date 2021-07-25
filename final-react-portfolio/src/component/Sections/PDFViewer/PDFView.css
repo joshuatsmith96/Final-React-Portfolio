@@ -1,0 +1,9 @@
+.PDFView{
+    position: fixed;
+    border: solid;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 16;
+    opacity: .7;
+}

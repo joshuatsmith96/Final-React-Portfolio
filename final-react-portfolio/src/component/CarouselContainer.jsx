@@ -28,9 +28,9 @@ const CarouselContainer = (props) => {
     return (
         <div className="bgImg">
             <div className="someText">
-                <h1>Developer.</h1>
-                <h1>Designer.</h1>
-                <h1>Freelancer.</h1>
+                <h1><span className="emphasize">D</span>eveloper.</h1>
+                <h1><span className="emphasize">D</span>esigner.</h1>
+                <h1><span className="emphasize">F</span>riend.</h1>
             </div>
             <div className="somePictures">
             <div className="carDiv">

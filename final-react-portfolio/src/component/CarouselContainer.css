@@ -41,9 +41,17 @@ img{
     flex: 2;
 }
 
-.carDiv a{
-    color: rgb(158, 158, 255);
-    text-decoration: underline;
+.carDiv a:first-child{
+    color: white;
+    background-color: rgb(40, 124, 233);
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.carDiv a:hover{
+    text-decoration: none;
+    cursor: pointer
 }
 
 .carDiv{

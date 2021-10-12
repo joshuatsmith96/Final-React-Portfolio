@@ -8,13 +8,28 @@ import InfoBar from '../../Articles/InfoBar';
 import Skills from '../Skills/Skills';
 import Projects from '../Project/Projects';
 import Footer from '../../Footer/Footer';
-import PDFView from '../PDFViewer/PDFView';
+import ProjectViewer from '../Project/ProjectViewer';
 
 const Home = (props) => {
 
+    const portfolioContent = {
+        Header: "Portfolio Website",
+        Text: "This portfolio website was created using HTML, CSS, JavaScript and the React framework",
+        Link: "https://github.com/joshuatsmith96/Final-React-Portfolio",
+        Value: 1
+    }
+
+    const budgetCalcContent = {
+        Header: "Budget Calculator",
+        Text: "Budgeting application used to create a sustainable budget plan.",
+        Link: "https://joshuatsmith96.github.io/Budget-Planner-Application/",
+        Value: 2
+    }
+
     return (
         <div className="Home">
-            <PDFView />
+            <ProjectViewer 
+            Content = {budgetCalcContent}/>
             <Header />
             <CarouselContainer />
             <InfoBar 
@@ -22,7 +37,9 @@ const Home = (props) => {
             Image={BriefCase}/>
             <About />
             <Skills />
-            <Projects />
+            <Projects 
+            portfolioContent = {portfolioContent}
+            budgetCalcContent = {budgetCalcContent}/>
             <Footer />
         </div>
     )

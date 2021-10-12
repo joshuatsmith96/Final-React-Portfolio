@@ -2,45 +2,33 @@ import React from 'react';
 import './Projects.css';
 import ProjectTile from './ProjectTile';
 import portfolioImage from '../../Images/portfolioScreenShot.png';
-import budgetCalcSS from '../../Images/budgetCalcSS.png';
-import italianSS from '../../Images/italianScreenShot.png';
-import theStory from '../../Images/TheStory.png';
-
+import budgetCalcImage from '../../Images/budgetCalc.png';
 
 const Projects = (props) => {
+
+    const portfolioContent = props.portfolioContent;
+    const budgetCalcContent = props.budgetCalcContent;
 
     return (
         <div className="Projects">
             <h1>Projects</h1>
             <div className="projectHolder">
+
                 <ProjectTile 
-                Header="Portfolio Website"
-                Text="This portfolio website was created using HTML, CSS, JavaScript
-                and the React Framework."
-                Link="https://www.github.com"
-                ButtonName="View Code"
-                Image={portfolioImage}/>
+                Header={portfolioContent.Header}
+                Text={portfolioContent.Text}
+                Link={portfolioContent.Link}
+                Image={portfolioImage}
+                Content={portfolioContent}
+                Value="1"/>
                 <ProjectTile 
                 Header="Budget Calculator"
-                Text="This application was created using HTML, CSS and JavaScript. This website
-                allows a user to calculate their monthly expenses."
+                Text="Budgeting application used to create a sustainable budget plan."
                 Link="https://joshuatsmith96.github.io/Budget-Planner-Application/"
-                ButtonName="View Live"
-                Image={budgetCalcSS}/>
-                <ProjectTile 
-                Header="Italian Restaurant"
-                Text="This application was created using HTML, CSS and JavaScript. This is a mock-up of
-                an italian restaurant. This website features a table reservation application."
-                Link="https://joshuatsmith96.github.io/ItalianRestaurant/"
-                ButtonName="View Live"
-                Image={italianSS}/>
-                <ProjectTile 
-                Header="'The Story'"
-                Text="This application was created using Python. This game is a story driven, 
-                text based adventure game where your decisions have consequences."
-                Link="https://github.com/joshuatsmith96/theStory"
-                ButtonName="View Code"
-                Image={theStory}/>
+                Image={budgetCalcImage}
+                Content={budgetCalcContent}
+                Value="2"/>
+
             </div>
         </div>
     )

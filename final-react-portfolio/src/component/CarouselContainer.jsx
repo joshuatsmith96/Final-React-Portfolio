@@ -11,7 +11,8 @@ const CarouselContainer = (props) => {
     let style1 = {
         backgroundColor: "black",
         opacity: ".8",
-        padding: "5px",
+        paddingTop: "15px",
+        paddingBottom: "15px",
         borderRadius: "6px",
         zIndex: "1"
     };
@@ -19,7 +20,8 @@ const CarouselContainer = (props) => {
     let style2 = {
         backgroundColor: "white",
         color: "black",
-        padding: "5px",
+        paddingTop: "15px",
+        paddingBottom: "15px",
         opacity: ".9",
         borderRadius: "6px",
         zIndex: "1"
@@ -54,9 +56,8 @@ const CarouselContainer = (props) => {
                 />
 
                 <Carousel.Caption style={style2}>
-                <h3>Find me on GitHub.</h3>
-                <p>View my projects on <a href="https://github.com/joshuatsmith96?tab=repositories&fbclid=IwAR0Tmx6YrbZyJ
-                -QsKdEoRPE2LjVCBK1bl6gZc15TvlwkD-t_i0UyrJs2Eow" target="_blank" rel="noreferrer">GitHub</a></p>
+                <h3>Find me on <a href="https://github.com/joshuatsmith96?tab=repositories&fbclid=IwAR0Tmx6YrbZyJ
+                -QsKdEoRPE2LjVCBK1bl6gZc15TvlwkD-t_i0UyrJs2Eow" target="_blank" rel="noreferrer">GitHub</a>.</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -67,8 +68,7 @@ const CarouselContainer = (props) => {
                 />
 
                 <Carousel.Caption style={style1}>
-                <h3>Find me on LinkedIn.</h3>
-                <p>Check out my page on <a href="https://www.linkedin.com/in/joshua-s-90680119b/" target="_blank" rel="noreferrer">LinkedIn!</a></p>
+                <h3>Find me on <a href="https://www.linkedin.com/in/joshua-s-90680119b/" target="_blank" rel="noreferrer">LinkedIn!</a></h3>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

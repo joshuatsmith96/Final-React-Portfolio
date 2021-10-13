@@ -57,7 +57,7 @@ const CarouselContainer = (props) => {
 
                 <Carousel.Caption style={style2}>
                 <h3>Find me on <a href="https://github.com/joshuatsmith96?tab=repositories&fbclid=IwAR0Tmx6YrbZyJ
-                -QsKdEoRPE2LjVCBK1bl6gZc15TvlwkD-t_i0UyrJs2Eow" target="_blank" rel="noreferrer">GitHub</a>.</h3>
+                -QsKdEoRPE2LjVCBK1bl6gZc15TvlwkD-t_i0UyrJs2Eow" target="_blank" rel="noreferrer">GitHub</a></h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

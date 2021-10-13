@@ -11,6 +11,7 @@ import sqlIcon from '../../Images/Icons/sql.png';
 import pythonIcon from '../../Images/Icons/python.png';
 import wordIcon from '../../Images/Icons/word.png';
 import excelIcon from '../../Images/Icons/excel.png';
+import reactIcon from '../../Images/Icons/react.png';
 
 
 const Skills = (props) => {
@@ -41,8 +42,8 @@ const Skills = (props) => {
                 Header="MS Access"
                 Image={accessIcon}/>
                 <SkillTile 
-                Header="ASP.NET "
-                Image={aspIcon}/>
+                Header="React"
+                Image={reactIcon}/>
                 <SkillTile 
                 Header="Power Point"
                 Image={ppIcon}/>
